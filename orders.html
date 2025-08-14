@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders - Luxury Restaurant</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <a id="top"></a>
+    <header>
+        <div class="logo">🍽️ Luxury Restaurant</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="menu.html">Menu</a>
+            <a href="journal.html">Journal</a>
+            <a href="orders.html" class="active">Orders</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <section class="orders">
+        <div class="orders-container">
+            <h1>Place Your Order</h1>
+            <form class="order-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="01012345678" required>
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" placeholder="your delivery Address"required>
+                <label for="type">Select your order</label>
+                <select id="type" name="type">
+                    <option value="">--Select your order--</option>
+                    <optgroup label="Pizza">
+                        <option>Margherita</option>
+                        <option>Pepperoni</option>
+                        <option>Veggie</option>
+                        <option>BBQ Chicken</option>
+                    </optgroup>
+                    <optgroup label="Pasta">
+                        <option>Penne Arrabiata</option>
+                        <option>Alfredo</option>
+                        <option>Carbonara</option>
+                        <option>Lasagna</option>
+                    </optgroup>
+                    <optgroup label="Fried Chicken">
+                        <option>Classic Fried Chicken</option>
+                        <option>Chicken Tenders</option>
+                        <option>Spicy Wings</option>
+                        <option>honey Garlic Chicken</option>
+                    </optgroup>
+                    <optgroup label="Dessert">
+                        <option>Chocolate Cake</option>
+                        <option>Fruit Tart</option>
+                        <option>Molten Cake</option>
+                        <option>Pancakes</option>
+                    </optgroup>
+                    <optgroup label="Main Dish">
+                        <option>Steak with Vegetables</option>
+                        <option>Grilled Salmon</option>
+                        <option>Roast Chicken</option>
+                        <option>seafood platter</option>
+                    </optgroup>
+                    <optgroup label="Fresh Juice">
+                        <option>Orange</option>
+                        <option>Mango</option>
+                        <option>pineapple</option>
+                        <option>strawberry</option>
+                    </optgroup>
+                    <optgroup label="Hot Drink">
+                        <option>Tea</option>
+                        <option>Espresso</option>
+                        <option>cappuccino</option>
+                        <option>Latte</option>
+                    </optgroup>
+                    <optgroup label="Cold Drink">
+                        <option>Iced Coffee</option>
+                        <option>Lemonade</option>
+                        <option>Smoothie</option>
+                        <option>sun shine</option>
+                    </optgroup>
+                </select>
+                <label for="quantity2">Quantity:</label>
+                <input type="number" id="quantity2" name="quantity2" min="1" value="1">
+                <label for="notes">Additional Notes:</label>
+                <textarea id="notes" name="notes" rows="4" placeholder="Any special requests..."></textarea>
+                <button type="submit" class="btn">Submit Order</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>© 2025 Luxury Restaurant | All Rights Reserved</p>
+    </footer>
+    <a href="#top" id="backToTop">⬆</a>
+        <script>
+        const backToTop = document.getElementById("backToTop");
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 200) {
+                backToTop.style.display = "block";
+            } else {
+                backToTop.style.display = "none";
+            }
+        });
+    </script>
+</body>
+</html>

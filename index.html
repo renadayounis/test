@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a id="top"></a>
+    <header>
+        <div class="logo">🍽️ Luxury Restaurant</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="menu.html">Menu</a>
+            <a href="journal.html">Journal</a>
+            <a href="orders.html">Orders</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Welcome to Luxury Restaurant</h1>
+            <p>Experience the finest dining with our exquisite dishes.</p>
+            <a href="#" class="btn">Explore Menu</a>
+        </div>
+    </section>
+    <section class="special-dishes">
+        <h2>Our Special Dishes</h2>
+        <div class="dish-container">
+            <div class="dish">
+                <img src="Grilled Steak.jpg" alt="Grilled Steak">
+                <h3>Grilled Steak</h3>
+                <p>Juicy and perfectly cooked steak with herbs.</p>
+            </div>
+            <div class="dish">
+                <img src="Italian Pasta.jpg" alt="Italian Pasta">
+                <h3>Italian Pasta</h3>
+                <p>Authentic pasta with fresh ingredients.</p>
+            </div>
+            <div class="dish">
+                <img src="Chocolate Dessert.jpg" alt="Chocolate Dessert">
+                <h3>Chocolate Dessert</h3>
+                <p>Rich chocolate cake with fresh cream.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>© 2025 Luxury Restaurant | All Rights Reserved</p>
+    </footer>
+    <a href="#top" id="backToTop">⬆</a>
+    <script>
+        const backToTop = document.getElementById("backToTop");
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 200) {
+                backToTop.style.display = "block";
+            } else {
+                backToTop.style.display = "none";
+            }
+        });
+    </script>
+</body>
+</html>

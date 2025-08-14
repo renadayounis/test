@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal - Luxury Restaurant</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <header>
+        <div class="logo">🍽️ Luxury Restaurant</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="menu.html">Menu</a>
+            <a href="journal.html" class="active">Journal</a>
+            <a href="orders.html">Orders</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <a href="#top" id="backToTop">⬆</a>
+
+    <section class="journal">
+        <div class="journal-container">
+            <div class="journal-card">
+                <img src="Discovering the Art of Fine Dining.jpg" alt="Discovering the Art of Fine Dining">
+                <h3>Discovering the Art of Fine Dining</h3>
+                <p>Explore how our chefs blend flavors and presentation to create unforgettable meals.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="journal-card">
+                <img src="The Secret Behind Our Signature Dishes.jpg" alt="The Secret Behind Our Signature Dishes">
+                <h3>The Secret Behind Our Signature Dishes</h3>
+                <p>A deep dive into the ingredients, recipes, and techniques that make our dishes unique.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="journal-card">
+                <img src="Seasonal Ingredients.avif" alt="Seasonal Ingredients">
+                <h3>Seasonal Ingredients: Freshness Matters</h3>
+                <p>Learn how using seasonal produce elevates the taste and quality of our meals.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="journal-card">
+                <img src="Perfect Dessert.jpg" alt="Perfect Dessert">
+                <h3>Perfect Desserts to End Your Meal</h3>
+                <p>Discover our selection of mouth-watering desserts to complete your dining experience.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>© 2025 Luxury Restaurant | All Rights Reserved</p>
+    </footer>
+    <script>
+        const backToTopBtn = document.getElementById("backToTop");
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 300) {
+                backToTopBtn.style.display = "block";
+            } else {
+                backToTopBtn.style.display = "none";
+            }
+        });
+    </script>
+</body>
+</html>

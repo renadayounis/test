@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Journal & Menu Planner - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="logo">🍽️ My Restaurant</div>
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="journal.html">Journal</a></li>
+                <li><a href="quotes.html">Quotes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Welcome to My Restaurant</h1>
+            <p>Delicious food, warm atmosphere, and unforgettable moments.</p>
+            <a href="menu.html" class="btn">View Menu</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature-box">
+            <img src="fresh-food.jpg" alt="Fresh Ingredients">
+            <h3>Fresh Ingredients</h3>
+            <p>We use only the freshest, locally-sourced ingredients in every dish.</p>
+        </div>
+        <div class="feature-box">
+            <img src="chef.jpg" alt="Professional Chefs">
+            <h3>Professional Chefs</h3>
+            <p>Our chefs are experts at creating mouth-watering recipes you'll love.</p>
+        </div>
+        <div class="feature-box">
+            <img src="cozy.jpg" alt="Cozy Atmosphere">
+            <h3>Cozy Atmosphere</h3>
+            <p>Enjoy your meal in a warm and welcoming environment.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 My Restaurant | <a href="contact.html">Contact Us</a></p>
+    </footer>
+
+</body>
+</html>
